@@ -7,6 +7,7 @@ int main()
 {
     int i, j, k;
     double x;
+    char answer;
     double a[n][n + 1];
     double res[n];
     FILE* in;
