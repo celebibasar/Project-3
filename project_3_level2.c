@@ -93,4 +93,13 @@ int main()
     {
         fprintf(out, "x%d = %lf\n", i + 1, res[i]);
     }
+    printf("\nPlease select Y to restart or N to close\n");
+        scanf("%c", &answer);
+
+        if (answer == 'Y'){
+                return main();
+        }
+        else if (answer == 'N'){
+                return 0;
+        }
 }
